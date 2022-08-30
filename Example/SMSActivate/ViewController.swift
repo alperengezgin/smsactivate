@@ -7,17 +7,36 @@
 //
 
 import UIKit
+import SMSActivate
+import SwiftyUserDefaults
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(handler), name: .initSuccess, object: nil)
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let a = SMSActivate(authID: "alp", rentURL: "alp", apiKey: "alp")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc func handler() {
+        let vc = UIAlertController(title: "Success", message: "ok", preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel)
+        vc.addAction(cancel)
+        self.present(vc, animated: true, completion: nil)
     }
 
 }

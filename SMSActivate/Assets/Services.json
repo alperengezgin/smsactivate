@@ -1,0 +1,294 @@
+    [
+    {
+    "name": "Airbnb",
+    "key" : "airbnb",
+    "code": "uk"
+    },
+    {
+    "name": "Alibaba",
+    "key" : "alibaba",
+    "code": "ab"
+    },
+    {
+    "name": "Aliexpress",
+    "key" : "aliexpress",
+    "code": "hx"
+    },
+    {
+    "name": "Alipay",
+    "key" : "alipay",
+    "code": "hw"
+    },
+    {
+    "name": "Amazon",
+    "key" : "amazon",
+    "code": "am"
+    },
+    {
+    "name": "Apple",
+    "key" : "apple",
+    "code": "wx"
+    },
+    {
+    "name": "Bigolive",
+    "key" : "bigolive",
+    "code": "bl"
+    },
+    {
+    "name": "Blablacar",
+    "key" : "blablacar",
+    "code": "ua"
+    },
+    {
+    "name": "Blizzard",
+    "key" : "blizzard",
+    "code": "bz"
+    },
+    {
+    "name": "Burgerking",
+    "key" : "burgerking",
+    "code": "ip"
+    },
+    {
+    "name": "Clubhouse",
+    "key" : "clubhouse",
+    "code": "et"
+    },
+    {
+    "name": "Coinbase",
+    "key" : "coinbase",
+    "code": "re"
+    },
+    {
+    "name": "Craigslist",
+    "key" : "craigslist",
+    "code": "wc"
+    },
+    {
+    "name": "Cryptocom",
+    "key" : "cryptocom",
+    "code": "ti"
+    },
+    {
+    "name": "Dent",
+    "key" : "dent",
+    "code": "zz"
+    },
+    {
+    "name": "Discord",
+    "key" : "discord",
+    "code": "ds"
+    },
+    {
+    "name": "Disney+ Hotstar",
+    "key" : "disneyhotstar",
+    "code": "ud"
+    },
+    {
+    "name": "Dominos Pizza",
+    "key" : "dominospizza",
+    "code": "dz"
+    },
+    {
+    "name": "eBay",
+    "key" : "ebay",
+    "code": "dh"
+    },
+    {
+    "name": "Facebook",
+    "key" : "facebook",
+    "code": "fb"
+    },
+    {
+    "name": "Fiverr",
+    "key" : "fiverr",
+    "code": "cn"
+    },
+    {
+    "name": "Getir",
+    "key" : "getir",
+    "code": "ul"
+    },
+    {
+    "name": "Glovo",
+    "key" : "glovo",
+    "code": "aq"
+    },
+    {
+    "name": "Google",
+    "key" : "google",
+    "code": "go"
+    },
+    {
+    "name": "Happn",
+    "key" : "happn",
+    "code": "df"
+    },
+    {
+    "name": "Icrypex",
+    "key" : "icrypex",
+    "code": "cx"
+    },
+    {
+    "name": "Ininal",
+    "key" : "ininal",
+    "code": "hy"
+    },
+    {
+    "name": "Instagram",
+    "key" : "instagram",
+    "code": "ig"
+    },
+    {
+    "name": "Justdating",
+    "key" : "justdating",
+    "code": "pu"
+    },
+    {
+    "name": "Kakaotalk",
+    "key" : "kakaotalk",
+    "code": "kt"
+    },
+    {
+    "name": "Linkedin",
+    "key" : "linkedin",
+    "code": "tn"
+    },
+    {
+    "name": "Mcdonalds",
+    "key" : "mcdonalds",
+    "code": "ry"
+    },
+    {
+    "name": "Michat",
+    "key" : "michat",
+    "code": "mc"
+    },
+    {
+    "name": "Microsoft",
+    "key" : "microsoft",
+    "code": "mm"
+    },
+    {
+    "name": "Mylove",
+    "key" : "mylove",
+    "code": "fy"
+    },
+    {
+    "name": "Netflix",
+    "key" : "netflix",
+    "code": "nf"
+    },
+    {
+    "name": "Nike",
+    "key" : "nike",
+    "code": "ew"
+    },
+    {
+    "name": "Nttgame",
+    "key" : "nttgame",
+    "code": "zy"
+    },
+    {
+    "name": "Okcupid",
+    "key" : "okcupid",
+    "code": "vm"
+    },
+    {
+    "name": "Papara",
+    "key" : "papara",
+    "code": "zr"
+    },
+    {
+    "name": "Paypal",
+    "key" : "paypal",
+    "code": "ts"
+    },
+    {
+    "name": "Snapchat",
+    "key" : "snapchat",
+    "code": "fu"
+    },
+    {
+    "name": "Telegram",
+    "key" : "telegram",
+    "code": "tg"
+    },
+    {
+    "name": "Tiktok",
+    "key" : "tiktok",
+    "code": "lf"
+    },
+    {
+    "name": "Tinder",
+    "key" : "tinder",
+    "code": "oi"
+    },
+    {
+    "name": "Trendyol",
+    "key" : "trendyol",
+    "code": "pr"
+    },
+    {
+    "name": "Truecaller",
+    "key" : "truecaller",
+    "code": "tl"
+    },
+    {
+    "name": "Twitch",
+    "key" : "twitch",
+    "code": "hb"
+    },
+    {
+    "name": "Twitter",
+    "key" : "twitter",
+    "code": "tw"
+    },
+    {
+    "name": "Uber",
+    "key" : "uber",
+    "code": "ub"
+    },
+    {
+    "name": "Vkontakte",
+    "key" : "vkontakte",
+    "code": "vk"
+    },
+    {
+    "name": "Wechat",
+    "key" : "wechat",
+    "code": "wb"
+    },
+    {
+    "name": "Whatsapp",
+    "key" : "whatsapp",
+    "code": "wa"
+    },
+    {
+    "name": "Wish",
+    "key" : "wish",
+    "code": "xv"
+    },
+    {
+    "name": "Wmaraci",
+    "key" : "wmaraci",
+    "code": "xl"
+    },
+    {
+    "name": "Yahoo",
+    "key" : "yahoo",
+    "code": "mb"
+    },
+    {
+    "name": "Yandex",
+    "key" : "yandex",
+    "code": "ya"
+    },
+    {
+    "name": "Zomato",
+    "key" : "zomato",
+    "code": "dy"
+    }
+    ]
+
+

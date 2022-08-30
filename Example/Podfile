@@ -4,6 +4,11 @@ platform :ios, '10.0'
 
 target 'SMSActivate_Example' do
   pod 'SMSActivate', :path => '../'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'Alamofire'
+  pod 'FlagKit'
+  pod 'SwiftyUserDefaults'
 
   target 'SMSActivate_Tests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module SMSActivate {
+  umbrella header "SMSActivate-umbrella.h"
+
+  export *
+  module * { export * }
+}

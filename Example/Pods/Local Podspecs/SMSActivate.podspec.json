@@ -1,0 +1,46 @@
+{
+  "name": "SMSActivate",
+  "version": "0.1.0",
+  "summary": "SMS Activate iOS SDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alperengezgin/smsactivate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alperen Polat GEZGIN": "alperengezgin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alperengezgin/smsactivate.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/alperengezgin",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "SMSActivate/Classes/**/*",
+  "resource_bundles": {
+    "SMSActivate": [
+      "SMSActivate/Assets/*.{png,json}"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Firebase/Database": [
+
+    ],
+    "Firebase/Firestore": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "FlagKit": [
+
+    ],
+    "SwiftyUserDefaults": [
+
+    ]
+  }
+}

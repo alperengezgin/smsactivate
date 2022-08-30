@@ -1,0 +1,6 @@
+framework module Pods_SMSActivate_Tests {
+  umbrella header "Pods-SMSActivate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
