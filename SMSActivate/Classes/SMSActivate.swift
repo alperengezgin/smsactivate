@@ -18,13 +18,15 @@ public class SMSActivate {
        
         if (Constant.authID == "") || (Constant.rentURL == "") || (Constant.apiKey == "") {
             NotificationCenter.default.post(name: .initFailed, object: nil, userInfo: nil)
+            return
         }
         
+        publicInit()
 
     }
     
     
-    public func publicInit() {
+    private func publicInit() {
         
         AuthManager.shared.fetchUserBalance()
         AuthManager.shared.fetchNumberPurchases()
