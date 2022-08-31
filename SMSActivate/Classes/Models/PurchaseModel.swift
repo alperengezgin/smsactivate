@@ -8,12 +8,12 @@
 import Foundation
 
 public class PurchaseModel {
-    var title: String!
-    var caption: String!
-    var key: String!
-    var code: String!
-    var prefix: String!
-    var type: PurchaseModelType
+    public var title: String!
+    public var caption: String!
+    public var key: String!
+    public var code: String!
+    public var prefix: String!
+    public var type: PurchaseModelType
     
     public init(title:String, caption:String, key:String, code:String = "nil", prefix:String = "nil", type:PurchaseModelType) {
         self.title = title
