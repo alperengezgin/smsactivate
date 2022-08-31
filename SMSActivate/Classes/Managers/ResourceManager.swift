@@ -32,4 +32,21 @@ public class ResourceManager {
         
         return UIImage()
     }
+    
+    public func getJsonFilePath(name: String) -> String? {
+        if let bundlePath = SMSActivate.assetBundle.path(forResource: "SMSActivate", ofType: "bundle") {
+            if let bundleUrl = URL(string: bundlePath) {
+                if let jsonUrl = Bundle.url(forResource: name, withExtension: "json", subdirectory: nil, in: bundleUrl) {
+                    return jsonUrl.path
+                } else {
+                    return nil
+                }
+            } else {
+                return nil
+            }
+        } else {
+            return nil
+        }
+        
+    }
 }

@@ -73,7 +73,7 @@ class DataManager {
     
     
     private func fetchCountries() {
-        let path = SMSActivate.assetBundle.path(forResource: "Countries", ofType: "json")
+        let path = ResourceManager.shared.getJsonFilePath(name: "Countries")
         guard let jsonPath = path, let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath)) else {
             return
         }
@@ -96,7 +96,7 @@ class DataManager {
     }
     
     private func fetchServices() {
-        let path = SMSActivate.assetBundle.path(forResource: "Services", ofType: "json")
+        let path = ResourceManager.shared.getJsonFilePath(name: "Services")
         guard let jsonPath = path, let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath)) else {
             return
         }
