@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'SMSActivate/Classes/**/*'
   
   s.resource_bundles = {
-      'SMSActivate' => ['SMSActivate/Assets/*.{png,json}']
+      'SMSActivate' => ['SMSActivate/Assets/*.{png,json,xcassets}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

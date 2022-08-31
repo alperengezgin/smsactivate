@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let a = SMSActivate(authID: "alp", rentURL: "alp", apiKey: "alp")
+        a.getData(searchedKey: "")
+        
     }
 
     override func didReceiveMemoryWarning() {

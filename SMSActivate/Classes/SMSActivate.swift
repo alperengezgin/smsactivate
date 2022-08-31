@@ -4,6 +4,11 @@ import UIKit
 
 public class SMSActivate {
     
+    public static var assetBundle: Bundle {
+        get {
+            return Bundle(for: SMSActivate.self)
+        }
+    }
     
     public init(authID: String, rentURL: String, apiKey: String, fcm: String = "", isRentActive: Bool = false) {
         Constant.authID = authID

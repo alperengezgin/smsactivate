@@ -18,7 +18,7 @@ public class ResourceManager {
     }
     
     public func getServiceImage(for service: String) -> UIImage {
-        if let image = UIImage(named: service) {
+        if let image = UIImage(named: service, in: SMSActivate.assetBundle, with: .none) {
             return image
         }
         
