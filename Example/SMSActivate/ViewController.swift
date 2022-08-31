@@ -24,9 +24,11 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let a = SMSActivate(authID: "alp", rentURL: "alp", apiKey: "alp")
-        a.getData(searchedKey: "")
-        
+        let path = SMSActivate.assetBundle.path(forResource: "Services", ofType: "json")
+        let vc = UIAlertController(title: "Success", message: path, preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel)
+        vc.addAction(cancel)
+        self.present(vc, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @objc func handler() {
-        let vc = UIAlertController(title: "Success", message: "ok", preferredStyle: .alert)
+        let vc = UIAlertController(title: "Success", message: "", preferredStyle: .alert)
         let cancel = UIAlertAction(title: "Cancel", style: .cancel)
         vc.addAction(cancel)
         self.present(vc, animated: true, completion: nil)
