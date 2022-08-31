@@ -7,20 +7,20 @@
 
 import Foundation
 
-class RentResponse: Codable {
-    var error: Bool?
-    var status: Int?
-    var response: String?
-    var data: RentUser?
+public class RentResponse: Codable {
+    public var error: Bool?
+    public var status: Int?
+    public var response: String?
+    public var data: RentUser?
 }
 
-class RentUser: Codable {
-    var fcmToken: String?
-    var deviceID: String?
-    var authID: String?
-    var balance: Int?
-    var state: Bool?
-    var userToken: String?
-    var country: String?
-    var operation: String?
+public class RentUser: Codable {
+    public var fcmToken: String?
+    public var deviceID: String?
+    public var authID: String?
+    public var balance: Int?
+    public var state: Bool?
+    public var userToken: String?
+    public var country: String?
+    public var operation: String?
 }

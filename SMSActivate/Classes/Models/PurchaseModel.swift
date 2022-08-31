@@ -15,7 +15,7 @@ public class PurchaseModel {
     var prefix: String!
     var type: PurchaseModelType
     
-    init(title:String, caption:String, key:String, code:String = "nil", prefix:String = "nil", type:PurchaseModelType) {
+    public init(title:String, caption:String, key:String, code:String = "nil", prefix:String = "nil", type:PurchaseModelType) {
         self.title = title
         self.caption = caption
         self.key = key
@@ -25,7 +25,7 @@ public class PurchaseModel {
     }
 }
 
-enum PurchaseModelType {
+public enum PurchaseModelType {
     case service
     case country
 }

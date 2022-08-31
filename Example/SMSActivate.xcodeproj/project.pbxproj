@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B520B950284A146C0558DA /* Pods_SMSActivate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C2E9E952E56BE209C91C2E /* Pods_SMSActivate_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		743254A83722AF2821D482C5 /* Pods_SMSActivate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326E352F272A7FF59D0A27A9 /* Pods_SMSActivate_Example.framework */; };
-		97D42B1AECA16DEFF2116FAD /* Pods_SMSActivate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82532E4855777BCACA2C0EFA /* Pods_SMSActivate_Tests.framework */; };
+		F79D2DF1E9E3A02E55C1B3EE /* Pods_SMSActivate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D204E10318570BA10E78F487 /* Pods_SMSActivate_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		326E352F272A7FF59D0A27A9 /* Pods_SMSActivate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSActivate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F98E1CEDBF1BBBFF97F0489 /* Pods-SMSActivate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Tests/Pods-SMSActivate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18092E81E8B92249B16222BB /* Pods-SMSActivate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Example.release.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Example/Pods-SMSActivate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F0A89A8BF3C14730291B557 /* Pods-SMSActivate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Tests/Pods-SMSActivate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SMSActivate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSActivate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* SMSActivate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSActivate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CFB40FD1DFEE15A5DA9B484 /* Pods-SMSActivate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Example.release.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Example/Pods-SMSActivate_Example.release.xcconfig"; sourceTree = "<group>"; };
-		82532E4855777BCACA2C0EFA /* Pods_SMSActivate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSActivate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C2E9E952E56BE209C91C2E /* Pods_SMSActivate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSActivate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7546B0D536DB9F7187A72013 /* Pods-SMSActivate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Tests/Pods-SMSActivate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A3651F665B3274C0D167E2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E9121769C1C1E3EE37D3358 /* Pods-SMSActivate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Tests/Pods-SMSActivate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D72F1557A2004C2A479B7D /* Pods-SMSActivate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Example/Pods-SMSActivate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D204E10318570BA10E78F487 /* Pods_SMSActivate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSActivate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACF5386E21EEE6C58CDFE52 /* SMSActivate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMSActivate.podspec; path = ../SMSActivate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E646EB139BE18AE32DAAAEC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F247AF50EC8A59F065172D0C /* Pods-SMSActivate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSActivate_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMSActivate_Example/Pods-SMSActivate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				743254A83722AF2821D482C5 /* Pods_SMSActivate_Example.framework in Frameworks */,
+				F79D2DF1E9E3A02E55C1B3EE /* Pods_SMSActivate_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D42B1AECA16DEFF2116FAD /* Pods_SMSActivate_Tests.framework in Frameworks */,
+				16B520B950284A146C0558DA /* Pods_SMSActivate_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				AA1EAE3233C46D86743247E3 /* Pods */,
-				9EF7E54C09B23831E2F1472C /* Frameworks */,
+				A18548DC2924E5F21060F43B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,11 +139,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9EF7E54C09B23831E2F1472C /* Frameworks */ = {
+		A18548DC2924E5F21060F43B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				326E352F272A7FF59D0A27A9 /* Pods_SMSActivate_Example.framework */,
-				82532E4855777BCACA2C0EFA /* Pods_SMSActivate_Tests.framework */,
+				D204E10318570BA10E78F487 /* Pods_SMSActivate_Example.framework */,
+				67C2E9E952E56BE209C91C2E /* Pods_SMSActivate_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 		AA1EAE3233C46D86743247E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F247AF50EC8A59F065172D0C /* Pods-SMSActivate_Example.debug.xcconfig */,
-				7CFB40FD1DFEE15A5DA9B484 /* Pods-SMSActivate_Example.release.xcconfig */,
-				8E9121769C1C1E3EE37D3358 /* Pods-SMSActivate_Tests.debug.xcconfig */,
-				4F98E1CEDBF1BBBFF97F0489 /* Pods-SMSActivate_Tests.release.xcconfig */,
+				91D72F1557A2004C2A479B7D /* Pods-SMSActivate_Example.debug.xcconfig */,
+				18092E81E8B92249B16222BB /* Pods-SMSActivate_Example.release.xcconfig */,
+				7546B0D536DB9F7187A72013 /* Pods-SMSActivate_Tests.debug.xcconfig */,
+				3F0A89A8BF3C14730291B557 /* Pods-SMSActivate_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SMSActivate_Example" */;
 			buildPhases = (
-				2E266C58EB0E9056A6B442EA /* [CP] Check Pods Manifest.lock */,
+				5943AA5791EB81B0E0F60B2C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				B78EDEF7097A5491F27B16DC /* [CP] Embed Pods Frameworks */,
+				C28D7F3673637D2A40E403BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SMSActivate_Tests" */;
 			buildPhases = (
-				D30A1FC2EB7CC4971A76B586 /* [CP] Check Pods Manifest.lock */,
+				D87052EF14871B55DDE877AC /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E266C58EB0E9056A6B442EA /* [CP] Check Pods Manifest.lock */ = {
+		5943AA5791EB81B0E0F60B2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,7 +284,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B78EDEF7097A5491F27B16DC /* [CP] Embed Pods Frameworks */ = {
+		C28D7F3673637D2A40E403BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +338,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SMSActivate_Example/Pods-SMSActivate_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D30A1FC2EB7CC4971A76B586 /* [CP] Check Pods Manifest.lock */ = {
+		D87052EF14871B55DDE877AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,7 +511,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F247AF50EC8A59F065172D0C /* Pods-SMSActivate_Example.debug.xcconfig */;
+			baseConfigurationReference = 91D72F1557A2004C2A479B7D /* Pods-SMSActivate_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMSActivate/Info.plist;
@@ -527,7 +527,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFB40FD1DFEE15A5DA9B484 /* Pods-SMSActivate_Example.release.xcconfig */;
+			baseConfigurationReference = 18092E81E8B92249B16222BB /* Pods-SMSActivate_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMSActivate/Info.plist;
@@ -543,7 +543,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E9121769C1C1E3EE37D3358 /* Pods-SMSActivate_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7546B0D536DB9F7187A72013 /* Pods-SMSActivate_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -565,7 +565,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F98E1CEDBF1BBBFF97F0489 /* Pods-SMSActivate_Tests.release.xcconfig */;
+			baseConfigurationReference = 3F0A89A8BF3C14730291B557 /* Pods-SMSActivate_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

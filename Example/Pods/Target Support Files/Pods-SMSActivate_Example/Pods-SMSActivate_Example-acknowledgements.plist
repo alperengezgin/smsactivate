@@ -508,7 +508,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    limitations under the License.
 </string>
 			<key>License</key>
-			<string>Apache</string>
+			<string>Apache-2.0</string>
 			<key>Title</key>
 			<string>Firebase</string>
 			<key>Type</key>
@@ -720,7 +720,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    limitations under the License.
 </string>
 			<key>License</key>
-			<string>Apache</string>
+			<string>Apache-2.0</string>
 			<key>Title</key>
 			<string>FirebaseCore</string>
 			<key>Type</key>
@@ -932,7 +932,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    limitations under the License.
 </string>
 			<key>License</key>
-			<string>Apache</string>
+			<string>Apache-2.0</string>
 			<key>Title</key>
 			<string>FirebaseCoreDiagnostics</string>
 			<key>Type</key>
@@ -1491,7 +1491,7 @@ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE, EVEN
 IF IBM IS APPRISED OF THE POSSIBILITY OF SUCH DAMAGES.
 </string>
 			<key>License</key>
-			<string>Apache</string>
+			<string>Apache-2.0</string>
 			<key>Title</key>
 			<string>FirebaseDatabase</string>
 			<key>Type</key>
@@ -1946,7 +1946,7 @@ FirestoreEncoder
 
 </string>
 			<key>License</key>
-			<string>Apache</string>
+			<string>Apache-2.0</string>
 			<key>Title</key>
 			<string>FirebaseFirestore</string>
 			<key>Type</key>

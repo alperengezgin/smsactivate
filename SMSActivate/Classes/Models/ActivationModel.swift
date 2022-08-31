@@ -8,18 +8,18 @@
 import Foundation
 
 public class ActivationModel: Codable {
-    var number: String?
-    var order_id: String?
-    var status: String?
-    var verifyCode: String?
-    var service: String?
-    var serviceTitle: String?
-    var serviceImage: String?
-    var country: String?
-    var date: String?
+    public var number: String?
+    public var order_id: String?
+    public var status: String?
+    public var verifyCode: String?
+    public var service: String?
+    public var serviceTitle: String?
+    public var serviceImage: String?
+    public var country: String?
+    public var date: String?
 
     
-    init(data:[String:Any]) {
+    public init(data:[String:Any]) {
         if let number = data["number"] as? String {
             self.number = number
         }
@@ -57,7 +57,7 @@ public class ActivationModel: Codable {
         }
     }
     
-    init(number: String, order_id: String, status:String, verifyCode:String, service:String, serviceTitle:String, serviceImage: String, country:String, date:String) {
+    public init(number: String, order_id: String, status:String, verifyCode:String, service:String, serviceTitle:String, serviceImage: String, country:String, date:String) {
         self.number = number
         self.order_id = order_id
         self.status = status

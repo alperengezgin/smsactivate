@@ -8,14 +8,14 @@
 import Foundation
 
 public class RentModel {
-    var serviceKey: String?
-    var code: String?
-    var time: Double?
-    var number: String?
-    var status: String?
-    var countryKey: String?
+    public var serviceKey: String?
+    public var code: String?
+    public var time: Double?
+    public var number: String?
+    public var status: String?
+    public var countryKey: String?
     
-    init(data: [String:Any]) {
+    public init(data: [String:Any]) {
         if let serviceKey = data["serviceKey"] as? String {
             self.serviceKey = serviceKey
         }

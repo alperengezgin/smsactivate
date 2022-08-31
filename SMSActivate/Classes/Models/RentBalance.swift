@@ -7,9 +7,9 @@
 
 import Foundation
 
-class RentBalance: Codable {
-    var error: Bool?
-    var status: Int?
-    var response: String?
-    var balance: Int?
+public class RentBalance: Codable {
+    public var error: Bool?
+    public var status: Int?
+    public var response: String?
+    public var balance: Int?
 }

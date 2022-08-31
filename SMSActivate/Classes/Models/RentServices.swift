@@ -7,21 +7,21 @@
 
 import Foundation
 
-class RentServices: Codable {
-    var error: Bool?
-    var status: Int?
-    var response: String?
-    var data: [RentService]?
+public class RentServices: Codable {
+    public var error: Bool?
+    public var status: Int?
+    public var response: String?
+    public var data: [RentService]?
 }
 
-class RentService: Codable {
-    var service: String?
-    var serviceKey: String?
-    var supportedCountry: [RentCountries]?
+public class RentService: Codable {
+    public var service: String?
+    public var serviceKey: String?
+    public var supportedCountry: [RentCountries]?
 }
 
-class RentCountries: Codable {
-    var countryKey: String?
-    var country: String?
-    var prefix: String?
+public class RentCountries: Codable {
+    public var countryKey: String?
+    public var country: String?
+    public var prefix: String?
 }
