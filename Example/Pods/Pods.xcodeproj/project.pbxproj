@@ -1038,8 +1038,10 @@
 		2C87CD480DDC5FFCF0DEFF4E6BF0BA9E /* construct_destruct.h in Headers */ = {isa = PBXBuildFile; fileRef = D358E4BDC3EE3F7CA885D854FC03FDC5 /* construct_destruct.h */; };
 		2C9E9F890BD6E35D2C7864141C0F2A29 /* proxy_mapper_registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 89302F0DE3C33C3869B240446CFEE5CA /* proxy_mapper_registry.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -Wno-comma -DBORINGSSL_PREFIX=GRPC -Wno-unreachable-code -Wno-shorten-64-to-32 -fno-objc-arc"; }; };
 		2CA1E2E7E317579833F22EEF33F39C16 /* cluster.upbdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2F88A72AED9D175FB28DB865EB1103 /* cluster.upbdefs.h */; };
-		2CA6ACFB28BFA15A007F07F8 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0CAF2E8F5FDBF9FA3FB032285A098 /* Countries.json */; };
-		2CA6ACFC28BFA15A007F07F8 /* Services.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F0E08117C8BAFB3CD42D0636747D3B /* Services.json */; };
+		2CA6ACFF28BFA59C007F07F8 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6ACFD28BFA59B007F07F8 /* Countries.json */; };
+		2CA6AD0028BFA59C007F07F8 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6ACFD28BFA59B007F07F8 /* Countries.json */; };
+		2CA6AD0128BFA59C007F07F8 /* Services.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6ACFE28BFA59B007F07F8 /* Services.json */; };
+		2CA6AD0228BFA59C007F07F8 /* Services.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6ACFE28BFA59B007F07F8 /* Services.json */; };
 		2CB0E21298C7E04600CA8D5AC9EBB09E /* executor.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AA7CDBDF353B72CB33FC8A85CA67B1 /* executor.h */; };
 		2CB3A9C2A876F5F1EF7498E3C4E2B4ED /* regex.upb.h in Copy src/core/ext/upb-generated/envoy/type/matcher/v3 Private Headers */ = {isa = PBXBuildFile; fileRef = F93A1F9C19C4EA6BDED6BB3E2FF9B860 /* regex.upb.h */; };
 		2CB4E06660D53110501CD3AE84C21DCB /* FPriorityIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F06F5B72B6D59ECA5FBC496A55EA7 /* FPriorityIndex.m */; };
@@ -1961,7 +1963,6 @@
 		53B6F6377CCBAC15754B75E2E3FCED74 /* hrss.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 84E140FC050C14CA50F0DCBFBB393FA4 /* hrss.h */; };
 		53B802E2C760498F29FCC1FE1184F2D2 /* rsaz_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = ACED1806D1CC6CE8873DFB342559D04C /* rsaz_exp.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -DBORINGSSL_PREFIX=GRPC -fno-objc-arc"; }; };
 		53C450A565F066137CD6B90261369E29 /* health_check.upb.h in Headers */ = {isa = PBXBuildFile; fileRef = C63AAC6E08854BA6CF0655F9926E928D /* health_check.upb.h */; };
-		53CBF86494BD43322472F19568361E4B /* Services.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F0E08117C8BAFB3CD42D0636747D3B /* Services.json */; };
 		53D80DB30A2F63FD06E8683C9DFAAEF8 /* p_x25519_asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = 105D1E3DAC60A5125696FE44FC9E3A40 /* p_x25519_asn1.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -DBORINGSSL_PREFIX=GRPC -fno-objc-arc"; }; };
 		53E7DF0C88BC4391A49BC6ACD3559758 /* router.upb.h in Copy src/core/ext/upb-generated/envoy/extensions/filters/http/router/v3 Private Headers */ = {isa = PBXBuildFile; fileRef = 811DFB80875E648F33DC20D1DA47E02E /* router.upb.h */; };
 		53EEB058841647080746D76861B23CC6 /* StorageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335D2342FC45FF6C0212FA5F0092DCB0 /* StorageFactory.swift */; };
@@ -3296,7 +3297,6 @@
 		8C00D4846B2B310D152377D3D8ED2B7D /* FIROptionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7B79F02B1EC59569A61AD7773287F /* FIROptionsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C39F980FDB04575A73C6CD90F271CB8 /* APLevelDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A2E0E3C24CCD5104E4E182D1013EB /* APLevelDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C4306E6E41F9261132D02461AB1A93F /* transaction_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = A7095CA31F9A17C61C3E07A456262080 /* transaction_runner.cc */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder -Wno-comma -fno-objc-arc"; }; };
-		8C5CD124F7170FD8B8C067DAA919110E /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0CAF2E8F5FDBF9FA3FB032285A098 /* Countries.json */; };
 		8C5D099F108538733FFC4E494B26F682 /* variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 407685962B1357A12318D62EBF29540F /* variant.h */; };
 		8C6646D67A6C85969850AB1AB46D4547 /* FIRServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 41317B14DFAE8C6CD82110A1FB5AD8EF /* FIRServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6B2892043EBF9007F7C0AF09DF1C63 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E20EEFB3FFB2F750EA593DD0ECEAF1 /* FBLPromise+Catch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -12706,7 +12706,6 @@
 		0784DA17AB876D8FD4F29A61FB70E405 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = src/crypto/fipsmodule/aes/internal.h; sourceTree = "<group>"; };
 		078655790774031C3EEB39E8711FF2AB /* lds.upb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lds.upb.h; path = "src/core/ext/upb-generated/envoy/service/listener/v3/lds.upb.h"; sourceTree = "<group>"; };
 		07BC8D61B3F7C8681A05B88FF1CA26A1 /* v3_enum.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = v3_enum.c; path = src/crypto/x509v3/v3_enum.c; sourceTree = "<group>"; };
-		07F0E08117C8BAFB3CD42D0636747D3B /* Services.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Services.json; path = SMSActivate/Assets/Services.json; sourceTree = "<group>"; };
 		08255406082124732E09C2D2BB6C3279 /* GDTCORStorageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORStorageProtocol.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageProtocol.h; sourceTree = "<group>"; };
 		0834E667B038D4A5134CB0626A40E460 /* thread_annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_annotations.h; path = absl/base/internal/thread_annotations.h; sourceTree = "<group>"; };
 		083930FB07D449620A4A462C6A5C436C /* orphanable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = orphanable.h; path = src/core/lib/gprpp/orphanable.h; sourceTree = "<group>"; };
@@ -13335,6 +13334,8 @@
 		2C512FBB24208D90162C25CED2C7831A /* method_handler_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = method_handler_impl.h; path = include/grpcpp/impl/method_handler_impl.h; sourceTree = "<group>"; };
 		2C551B7562C8B9825D1DF14B506B5FED /* function_ref.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = function_ref.h; path = absl/functional/function_ref.h; sourceTree = "<group>"; };
 		2C88E54054E63BA0CFB5694F7A09A047 /* custom_tag.upb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = custom_tag.upb.h; path = "src/core/ext/upb-generated/envoy/type/tracing/v3/custom_tag.upb.h"; sourceTree = "<group>"; };
+		2CA6ACFD28BFA59B007F07F8 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Countries.json; path = SMSActivate/Classes/Countries.json; sourceTree = "<group>"; };
+		2CA6ACFE28BFA59B007F07F8 /* Services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Services.json; path = SMSActivate/Classes/Services.json; sourceTree = "<group>"; };
 		2CAD4E1565BE7FA6B47D3CCD86B1DBC2 /* process.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = process.c; path = src/unix/process.c; sourceTree = "<group>"; };
 		2CCBCB3E88C22226533DF2DF52261BB5 /* socket_helper.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = socket_helper.c; path = src/crypto/bio/socket_helper.c; sourceTree = "<group>"; };
 		2CEF45CFF027C36E44098A68B0CE4442 /* route.upb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = route.upb.h; path = "src/core/ext/upb-generated/envoy/config/route/v3/route.upb.h"; sourceTree = "<group>"; };
@@ -14648,7 +14649,6 @@
 		7EB512AB7C357C9E1A0E08C878057D92 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/grpcpp/support/config.h; sourceTree = "<group>"; };
 		7EBFE29764A3BE57B5306782F07E1C77 /* FCachePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCachePolicy.h; path = FirebaseDatabase/Sources/Persistence/FCachePolicy.h; sourceTree = "<group>"; };
 		7EC7F7F707D332E31BAF1D0500DFD45C /* server_callback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = server_callback.h; path = include/grpcpp/impl/codegen/server_callback.h; sourceTree = "<group>"; };
-		7ED0CAF2E8F5FDBF9FA3FB032285A098 /* Countries.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Countries.json; path = SMSActivate/Assets/Countries.json; sourceTree = "<group>"; };
 		7ED5F82A67B0D660DC704CDCF232F86E /* APLevelDB.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = APLevelDB.mm; path = "FirebaseDatabase/Sources/third_party/Wrap-leveldb/APLevelDB.mm"; sourceTree = "<group>"; };
 		7EE0E87B8E6E6DFCC39225506706FC1F /* external_account_credentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = external_account_credentials.h; path = src/core/lib/security/credentials/external/external_account_credentials.h; sourceTree = "<group>"; };
 		7EE4373D5E93CD6853528F88AE03ACD9 /* ads.upb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ads.upb.c; path = "src/core/ext/upb-generated/envoy/service/discovery/v3/ads.upb.c"; sourceTree = "<group>"; };
@@ -18907,9 +18907,9 @@
 		8371B14C1CC0E8017AD88706267CFE47 /* SMSActivate */ = {
 			isa = PBXGroup;
 			children = (
+				2CA6ACFD28BFA59B007F07F8 /* Countries.json */,
+				2CA6ACFE28BFA59B007F07F8 /* Services.json */,
 				533CED12863F16061276DB293CDE853B /* Constant.swift */,
-				7ED0CAF2E8F5FDBF9FA3FB032285A098 /* Countries.json */,
-				07F0E08117C8BAFB3CD42D0636747D3B /* Services.json */,
 				7282656E37477E334ACACF8BA850F050 /* SMSActivate.swift */,
 				0807222DD8CE08CFA08E52038D99A7F1 /* Managers */,
 				B89FB6D0B918D3FC4FFE1489CE26DFCE /* Models */,
@@ -26019,8 +26019,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5CD124F7170FD8B8C067DAA919110E /* Countries.json in Resources */,
-				53CBF86494BD43322472F19568361E4B /* Services.json in Resources */,
+				2CA6AD0028BFA59C007F07F8 /* Countries.json in Resources */,
+				2CA6AD0228BFA59C007F07F8 /* Services.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26071,9 +26071,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA6ACFB28BFA15A007F07F8 /* Countries.json in Resources */,
-				2CA6ACFC28BFA15A007F07F8 /* Services.json in Resources */,
+				2CA6ACFF28BFA59C007F07F8 /* Countries.json in Resources */,
 				1F289620093428792B7E28D2A39AB264 /* SMSActivate-SMSActivate in Resources */,
+				2CA6AD0128BFA59C007F07F8 /* Services.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
