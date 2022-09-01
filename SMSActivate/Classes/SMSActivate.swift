@@ -192,5 +192,13 @@ extension SMSActivate {
             completion(respone)
         }
     }
+    
+    public func getCurrentActivation(completion: @escaping (Bool,ActivationModel?) -> ()) {
+        if let currentActivation = AuthManager.shared.getCurrentActivation() {
+            completion(true,currentActivation)
+        } else {
+            completion(false,nil)
+        }
+    }
 }
 

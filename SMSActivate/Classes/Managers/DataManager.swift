@@ -53,7 +53,7 @@ class DataManager {
                     self.unselectCountry()
                     AuthManager.shared.initNumberPurchase(dic: activationNumber.createDic())
                     AuthManager.shared.startPurchase(currentActivation: activationNumber)
-                    
+                    completion(true,"Your number ordered with successfully")
                     
                 } else if result == "NO_NUMBERS" {
                     completion(false, "We can not provide a number now for this service and this country. Please try again later")

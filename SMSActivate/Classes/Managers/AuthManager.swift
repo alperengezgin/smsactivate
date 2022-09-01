@@ -121,6 +121,10 @@ extension AuthManager {
         }
     }
     
+    func getCurrentActivation() -> ActivationModel? {
+        return self.currentActivation
+    }
+    
     
     func finishOrder(code: String) {
         
