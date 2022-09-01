@@ -1026,6 +1026,8 @@
 		2C2400B1A2C59DC0D91304EA99CF94C7 /* FRangedFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CCC31A29954CAFC6898C226CA3A395 /* FRangedFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2C2A76C65954CB36CCA4895EE2310E30 /* http_server_filter.h in Copy src/core/ext/filters/http/server Private Headers */ = {isa = PBXBuildFile; fileRef = 05763A0FED51F96A9967319D25722609 /* http_server_filter.h */; };
 		2C2C690B4261D07D4FCB5FDBBD179873 /* FConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A1B65CAB5E171D881678F56720595A /* FConstants.m */; };
+		2C303C8328C1278A00A05ED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C303C8228C1278A00A05ED3 /* Images.xcassets */; };
+		2C303C8428C1278F00A05ED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C303C8228C1278A00A05ED3 /* Images.xcassets */; };
 		2C32ADA10C6EA2A793581FEF1C061783 /* metadata_map.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0565456B403B449E63FB602A4C991E /* metadata_map.h */; };
 		2C385ACD02588F1333CB5279727B5913 /* alts_security_connector.h in Copy src/core/lib/security/security_connector/alts Private Headers */ = {isa = PBXBuildFile; fileRef = D08A01F1E9727D3A27923E1A68724B7E /* alts_security_connector.h */; };
 		2C4E9FAC92768C8076A7A68A9741DE67 /* error_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6083E988DC34DF91E95091B0378F97ED /* error_internal.h */; };
@@ -13325,6 +13327,7 @@
 		2C123CC9B463403DE363B6818CAFAAF3 /* x509.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = x509.c; path = src/crypto/x509/x509.c; sourceTree = "<group>"; };
 		2C14AFADCED8B034182289CDB630E69E /* FIRHeartbeatInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatInfo.h; path = FirebaseCore/Extension/FIRHeartbeatInfo.h; sourceTree = "<group>"; };
 		2C260CDE9891B42B4405FF089316352B /* FIRFieldPath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FIRFieldPath.mm; path = Firestore/Source/API/FIRFieldPath.mm; sourceTree = "<group>"; };
+		2C303C8228C1278A00A05ED3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../SMSActivate/Assets/Images.xcassets; sourceTree = "<group>"; };
 		2C30C015789DAACFBE8829C9DCF821CC /* service_config_call_data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_config_call_data.h; path = src/core/lib/service_config/service_config_call_data.h; sourceTree = "<group>"; };
 		2C32119935E8BF119FD677B53181FAF8 /* field_path.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = field_path.cc; path = Firestore/core/src/model/field_path.cc; sourceTree = "<group>"; };
 		2C399CAC50BC533CD97850A6D6339668 /* create_channel_posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = create_channel_posix.h; path = include/grpcpp/create_channel_posix.h; sourceTree = "<group>"; };
@@ -21865,6 +21868,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				2C303C8228C1278A00A05ED3 /* Images.xcassets */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D9AC319A91F0E667122A9E10D62D81EC /* Development Pods */,
 				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
@@ -26019,6 +26023,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C303C8328C1278A00A05ED3 /* Images.xcassets in Resources */,
 				2CA6AD0028BFA59C007F07F8 /* Countries.json in Resources */,
 				2CA6AD0228BFA59C007F07F8 /* Services.json in Resources */,
 			);
@@ -26071,6 +26076,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C303C8428C1278F00A05ED3 /* Images.xcassets in Resources */,
 				2CA6ACFF28BFA59C007F07F8 /* Countries.json in Resources */,
 				1F289620093428792B7E28D2A39AB264 /* SMSActivate-SMSActivate in Resources */,
 				2CA6AD0128BFA59C007F07F8 /* Services.json in Resources */,

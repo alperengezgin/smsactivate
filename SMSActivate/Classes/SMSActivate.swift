@@ -200,5 +200,9 @@ extension SMSActivate {
             completion(false,nil)
         }
     }
+    
+    public func addBalance(amount: Int) {
+        AuthManager.shared.updateUserBalance(isPurchased: true, isSpent: false, amount: amount)
+    }
 }
 
